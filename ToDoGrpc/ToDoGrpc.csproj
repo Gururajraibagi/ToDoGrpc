@@ -7,7 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="google\annotations.proto" />
+    <None Remove="google\http.proto" />
     <None Remove="Protos\todo.proto" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="google\api\annotations.proto" />
+    <Compile Include="google\api\http.proto" />
   </ItemGroup>
 
   <ItemGroup>
